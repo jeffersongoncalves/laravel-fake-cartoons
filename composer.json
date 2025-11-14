@@ -1,0 +1,57 @@
+{
+    "name": "jeffersongoncalves/laravel-fake-cartoons",
+    "description": "This Laravel package provides a Faker provider to generate fictional cartoon company names. Perfect for seeding your database with fun and recognizable company names from popular cartoons and animated series.",
+    "keywords": [
+        "jeffersongoncalves",
+        "laravel",
+        "laravel-fake-cartoons"
+    ],
+    "homepage": "https://github.com/jeffersongoncalves/laravel-fake-cartoons",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jefferson Gonçalves",
+            "email": "gerson.simao.92@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.2|^8.3",
+        "laravel/framework": "^11.0|^12.0",
+        "spatie/laravel-package-tools": "^1.14.0"
+    },
+    "require-dev": {
+        "larastan/larastan": "^3.0",
+        "laravel/pint": "^1.24",
+        "orchestra/testbench": "^9.0|^10.0",
+        "pestphp/pest": "^3.7.4",
+        "pestphp/pest-plugin-laravel": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "JeffersonGoncalves\\FakeCartoons\\": "src/"
+        }
+    },
+    "scripts": {
+        "post-autoload-dump": "@php ./vendor/bin/testbench package:discover --ansi",
+        "analyse": "vendor/bin/phpstan analyse",
+        "test": "vendor/bin/pest",
+        "format": "vendor/bin/pint"
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true,
+            "phpstan/extension-installer": true
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "JeffersonGoncalves\\FakeCartoons\\FakeCartoonsServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
