@@ -17,7 +17,7 @@ This Laravel package provides a Faker provider to generate fictional cartoon com
 You can install the package via composer:
 
 ```bash
-composer require jeffersongoncalves/laravel-fake-cartoons
+composer require --dev jeffersongoncalves/laravel-fake-cartoons
 ```
 
 ## Usage
