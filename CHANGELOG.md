@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## 1.0.3 - 2026-05-23
+
+**Full Changelog**: https://github.com/jeffersongoncalves/laravel-fake-cartoons/compare/1.0.2...1.0.3
+
 ## 1.0.2 - 2026-04-26
 
 ### What's Changed
