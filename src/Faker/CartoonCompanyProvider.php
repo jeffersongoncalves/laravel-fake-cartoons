@@ -6,6 +6,7 @@ use Faker\Provider\Base;
 
 class CartoonCompanyProvider extends Base
 {
+    /** @var list<string> */
     protected static $cartoonCompanies = [
         'ACME Corporation',
         'Planet Express',

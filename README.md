@@ -28,6 +28,40 @@ composer require --dev jeffersongoncalves/laravel-fake-cartoons
 fake()->cartoonCompany();
 ```
 
+### Using in a Model Factory
+
+```php
+use Illuminate\Database\Eloquent\Factories\Factory;
+
+class CompanyFactory extends Factory
+{
+    public function definition(): array
+    {
+        return [
+            'name' => fake()->cartoonCompany(),
+        ];
+    }
+}
+```
+
+### Using in a Seeder
+
+```php
+use Illuminate\Database\Seeder;
+
+class CompanySeeder extends Seeder
+{
+    public function run(): void
+    {
+        foreach (range(1, 10) as $ignored) {
+            Company::create([
+                'name' => fake()->cartoonCompany(),
+            ]);
+        }
+    }
+}
+```
+
 ## Changelog
 
 Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.

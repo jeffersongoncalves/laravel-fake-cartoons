@@ -16,7 +16,7 @@
         }
     ],
     "require": {
-        "php": "^8.2|^8.3",
+        "php": "^8.2|^8.3|^8.4",
         "laravel/framework": "^11.0|^12.0|^13.0",
         "spatie/laravel-package-tools": "^1.14.0"
     },
@@ -30,6 +30,11 @@
     "autoload": {
         "psr-4": {
             "JeffersonGoncalves\\FakeCartoons\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "JeffersonGoncalves\\FakeCartoons\\Tests\\": "tests"
         }
     },
     "scripts": {
