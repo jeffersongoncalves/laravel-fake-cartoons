@@ -1,6 +1,6 @@
 <div class="filament-hidden">
 
-![Laravel Fake Cartoons](https://raw.githubusercontent.com/jeffersongoncalves/laravel-fake-cartoons/master/art/jeffersongoncalves-laravel-fake-cartoons.png)
+![Laravel Fake Cartoons](https://raw.githubusercontent.com/jeffersongoncalves/laravel-fake-cartoons/main/art/jeffersongoncalves-laravel-fake-cartoons.png)
 
 </div>
 
@@ -9,7 +9,7 @@
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-support-FFDD00?style=flat-square&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/jeffersongoncalves)
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/jeffersongoncalves/laravel-fake-cartoons.svg?style=flat-square)](https://packagist.org/packages/jeffersongoncalves/laravel-fake-cartoons)
-[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/jeffersongoncalves/laravel-fake-cartoons/fix-php-code-style-issues.yml?branch=master&label=code%20style&style=flat-square)](https://github.com/jeffersongoncalves/laravel-fake-cartoons/actions?query=workflow%3A"Fix+PHP+code+styling"+branch%3Amaster)
+[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/jeffersongoncalves/laravel-fake-cartoons/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/jeffersongoncalves/laravel-fake-cartoons/actions?query=workflow%3A"Fix+PHP+code+styling"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/jeffersongoncalves/laravel-fake-cartoons.svg?style=flat-square)](https://packagist.org/packages/jeffersongoncalves/laravel-fake-cartoons)
 
 This Laravel package provides a Faker provider to generate fictional cartoon company names. Perfect for seeding your database with fun and recognizable company names from popular cartoons and animated series.
